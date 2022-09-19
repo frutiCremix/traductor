@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>traductor</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div class="contenedor">
+        <label>selecciona idioma</label>
+        <select class="selector" id="origen">
+            <option value="es">espanol</option>
+        </select>
+        <label >--></label>
+        <select class="selector" id="destino">
+            <option value="en">ingles</option>
+        </select>
+    </div>
+    <div class="contenedor-2">
+        <textarea cols="30" rows="10" class='textArea'id="textoO"></textarea>
+        <button id="traducir">Traducir</button>
+        <textarea cols="30" rows="10" class='textArea'id="textoD"></textarea>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
